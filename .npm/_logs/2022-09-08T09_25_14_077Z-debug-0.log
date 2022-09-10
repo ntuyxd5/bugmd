@@ -1,0 +1,568 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@8.15.0
+2 info using node@v18.7.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 11ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 13ms
+8 timing config:load:env Completed in 3ms
+9 timing config:load:project Completed in 8ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 7ms
+11 timing config:load:user Completed in 7ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 3ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 13ms
+16 timing config:load:setEnvs Completed in 7ms
+17 timing config:load Completed in 76ms
+18 timing npm:load:configload Completed in 77ms
+19 timing npm:load:mkdirpcache Completed in 6ms
+20 timing npm:load:mkdirplogs Completed in 2ms
+21 verbose title npm install bash-obfuscate
+22 verbose argv "install" "--global" "bash-obfuscate"
+23 timing npm:load:setTitle Completed in 7ms
+24 timing config:load:flatten Completed in 18ms
+25 timing npm:load:display Completed in 28ms
+26 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs
+27 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2022-09-08T09_25_14_077Z-debug-0.log
+28 timing npm:load:logFile Completed in 35ms
+29 timing npm:load:timers Completed in 1ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 166ms
+32 timing arborist:ctor Completed in 4ms
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 28ms
+35 timing idealTree:userRequests Completed in 12ms
+36 silly idealTree buildDeps
+37 silly fetch manifest bash-obfuscate@*
+38 http fetch GET 200 https://registry.npmjs.org/bash-obfuscate 619ms (cache miss)
+39 silly placeDep ROOT bash-obfuscate@1.2.1 OK for:  want: *
+40 silly fetch manifest lodash@^4.17.3
+41 silly fetch manifest yargs@^6.5.0
+42 http fetch GET 200 https://registry.npmjs.org/npm 1285ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/lodash 439ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/yargs 657ms (cache miss)
+45 timing idealTree:#root Completed in 1423ms
+46 silly placeDep node_modules/bash-obfuscate lodash@4.17.21 OK for: bash-obfuscate@1.2.1 want: ^4.17.3
+47 silly placeDep node_modules/bash-obfuscate yargs@6.6.0 OK for: bash-obfuscate@1.2.1 want: ^6.5.0
+48 silly fetch manifest camelcase@^3.0.0
+49 silly fetch manifest cliui@^3.2.0
+50 silly fetch manifest decamelize@^1.1.1
+51 silly fetch manifest get-caller-file@^1.0.1
+52 silly fetch manifest os-locale@^1.4.0
+53 silly fetch manifest read-pkg-up@^1.0.1
+54 silly fetch manifest require-directory@^2.1.1
+55 silly fetch manifest require-main-filename@^1.0.1
+56 silly fetch manifest set-blocking@^2.0.0
+57 silly fetch manifest string-width@^1.0.2
+58 silly fetch manifest which-module@^1.0.0
+59 silly fetch manifest y18n@^3.2.1
+60 silly fetch manifest yargs-parser@^4.2.0
+61 http fetch GET 200 https://registry.npmjs.org/decamelize 324ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/camelcase 345ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/cliui 346ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/require-main-filename 664ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/set-blocking 667ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/which-module 669ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/require-directory 690ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/read-pkg-up 700ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/get-caller-file 715ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/os-locale 726ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/string-width 713ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/y18n 711ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/yargs-parser 723ms (cache miss)
+74 timing idealTree:node_modules/bash-obfuscate Completed in 825ms
+75 timing idealTree:node_modules/bash-obfuscate/node_modules/lodash Completed in 0ms
+76 silly placeDep node_modules/bash-obfuscate camelcase@3.0.0 OK for: yargs@6.6.0 want: ^3.0.0
+77 silly placeDep node_modules/bash-obfuscate cliui@3.2.0 OK for: yargs@6.6.0 want: ^3.2.0
+78 silly placeDep node_modules/bash-obfuscate decamelize@1.2.0 OK for: yargs@6.6.0 want: ^1.1.1
+79 silly placeDep node_modules/bash-obfuscate get-caller-file@1.0.3 OK for: yargs@6.6.0 want: ^1.0.1
+80 silly placeDep node_modules/bash-obfuscate os-locale@1.4.0 OK for: yargs@6.6.0 want: ^1.4.0
+81 silly placeDep node_modules/bash-obfuscate read-pkg-up@1.0.1 OK for: yargs@6.6.0 want: ^1.0.1
+82 silly placeDep node_modules/bash-obfuscate require-directory@2.1.1 OK for: yargs@6.6.0 want: ^2.1.1
+83 silly placeDep node_modules/bash-obfuscate require-main-filename@1.0.1 OK for: yargs@6.6.0 want: ^1.0.1
+84 silly placeDep node_modules/bash-obfuscate set-blocking@2.0.0 OK for: yargs@6.6.0 want: ^2.0.0
+85 silly placeDep node_modules/bash-obfuscate string-width@1.0.2 OK for: yargs@6.6.0 want: ^1.0.2
+86 silly placeDep node_modules/bash-obfuscate which-module@1.0.0 OK for: yargs@6.6.0 want: ^1.0.0
+87 silly placeDep node_modules/bash-obfuscate y18n@3.2.2 OK for: yargs@6.6.0 want: ^3.2.1
+88 silly placeDep node_modules/bash-obfuscate yargs-parser@4.2.1 OK for: yargs@6.6.0 want: ^4.2.0
+89 silly fetch manifest strip-ansi@^3.0.1
+90 silly fetch manifest wrap-ansi@^2.0.0
+91 silly fetch manifest lcid@^1.0.0
+92 silly fetch manifest find-up@^1.0.0
+93 silly fetch manifest read-pkg@^1.0.0
+94 silly fetch manifest code-point-at@^1.0.0
+95 silly fetch manifest is-fullwidth-code-point@^1.0.0
+96 silly fetch manifest strip-ansi@^3.0.0
+97 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 277ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/code-point-at 297ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/strip-ansi 324ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/lcid 325ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/strip-ansi 305ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/read-pkg 328ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/find-up 336ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 1096ms (cache miss)
+105 timing idealTree:node_modules/bash-obfuscate/node_modules/yargs Completed in 1302ms
+106 timing idealTree:node_modules/bash-obfuscate/node_modules/camelcase Completed in 0ms
+107 silly placeDep node_modules/bash-obfuscate strip-ansi@3.0.1 OK for: cliui@3.2.0 want: ^3.0.1
+108 silly placeDep node_modules/bash-obfuscate wrap-ansi@2.1.0 OK for: cliui@3.2.0 want: ^2.0.0
+109 silly fetch manifest ansi-regex@^2.0.0
+110 http fetch GET 200 https://registry.npmjs.org/ansi-regex 198ms (cache miss)
+111 timing idealTree:node_modules/bash-obfuscate/node_modules/cliui Completed in 240ms
+112 timing idealTree:node_modules/bash-obfuscate/node_modules/decamelize Completed in 0ms
+113 timing idealTree:node_modules/bash-obfuscate/node_modules/get-caller-file Completed in 4ms
+114 silly placeDep node_modules/bash-obfuscate lcid@1.0.0 OK for: os-locale@1.4.0 want: ^1.0.0
+115 silly fetch manifest invert-kv@^1.0.0
+116 http fetch GET 200 https://registry.npmjs.org/invert-kv 135ms (cache miss)
+117 timing idealTree:node_modules/bash-obfuscate/node_modules/os-locale Completed in 155ms
+118 silly placeDep node_modules/bash-obfuscate invert-kv@1.0.0 OK for: lcid@1.0.0 want: ^1.0.0
+119 timing idealTree:node_modules/bash-obfuscate/node_modules/lcid Completed in 14ms
+120 timing idealTree:node_modules/bash-obfuscate/node_modules/invert-kv Completed in 1ms
+121 silly placeDep node_modules/bash-obfuscate find-up@1.1.2 OK for: read-pkg-up@1.0.1 want: ^1.0.0
+122 silly placeDep node_modules/bash-obfuscate read-pkg@1.1.0 OK for: read-pkg-up@1.0.1 want: ^1.0.0
+123 silly fetch manifest path-exists@^2.0.0
+124 silly fetch manifest pinkie-promise@^2.0.0
+125 silly fetch manifest load-json-file@^1.0.0
+126 silly fetch manifest normalize-package-data@^2.3.2
+127 silly fetch manifest path-type@^1.0.0
+128 http fetch GET 200 https://registry.npmjs.org/path-exists 235ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/pinkie-promise 233ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/path-type 224ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/load-json-file 242ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/normalize-package-data 243ms (cache miss)
+133 timing idealTree:node_modules/bash-obfuscate/node_modules/read-pkg-up Completed in 298ms
+134 silly placeDep node_modules/bash-obfuscate path-exists@2.1.0 OK for: find-up@1.1.2 want: ^2.0.0
+135 silly placeDep node_modules/bash-obfuscate pinkie-promise@2.0.1 OK for: find-up@1.1.2 want: ^2.0.0
+136 silly fetch manifest pinkie@^2.0.0
+137 http fetch GET 200 https://registry.npmjs.org/pinkie 147ms (cache miss)
+138 timing idealTree:node_modules/bash-obfuscate/node_modules/find-up Completed in 172ms
+139 timing idealTree:node_modules/bash-obfuscate/node_modules/path-exists Completed in 0ms
+140 silly placeDep node_modules/bash-obfuscate pinkie@2.0.4 OK for: pinkie-promise@2.0.1 want: ^2.0.0
+141 timing idealTree:node_modules/bash-obfuscate/node_modules/pinkie-promise Completed in 11ms
+142 timing idealTree:node_modules/bash-obfuscate/node_modules/pinkie Completed in 0ms
+143 silly placeDep node_modules/bash-obfuscate load-json-file@1.1.0 OK for: read-pkg@1.1.0 want: ^1.0.0
+144 silly placeDep node_modules/bash-obfuscate normalize-package-data@2.5.0 OK for: read-pkg@1.1.0 want: ^2.3.2
+145 silly placeDep node_modules/bash-obfuscate path-type@1.1.0 OK for: read-pkg@1.1.0 want: ^1.0.0
+146 silly fetch manifest graceful-fs@^4.1.2
+147 silly fetch manifest parse-json@^2.2.0
+148 silly fetch manifest pify@^2.0.0
+149 silly fetch manifest strip-bom@^2.0.0
+150 silly fetch manifest hosted-git-info@^2.1.4
+151 silly fetch manifest resolve@^1.10.0
+152 silly fetch manifest semver@2 || 3 || 4 || 5
+153 silly fetch manifest validate-npm-package-license@^3.0.1
+154 http fetch GET 200 https://registry.npmjs.org/pify 368ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/graceful-fs 392ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/strip-bom 382ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license 362ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/parse-json 398ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 388ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/resolve 418ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/semver 421ms (cache miss)
+162 timing idealTree:node_modules/bash-obfuscate/node_modules/read-pkg Completed in 528ms
+163 silly placeDep node_modules/bash-obfuscate graceful-fs@4.2.10 OK for: load-json-file@1.1.0 want: ^4.1.2
+164 silly placeDep node_modules/bash-obfuscate parse-json@2.2.0 OK for: load-json-file@1.1.0 want: ^2.2.0
+165 silly placeDep node_modules/bash-obfuscate pify@2.3.0 OK for: load-json-file@1.1.0 want: ^2.0.0
+166 silly placeDep node_modules/bash-obfuscate strip-bom@2.0.0 OK for: load-json-file@1.1.0 want: ^2.0.0
+167 silly fetch manifest error-ex@^1.2.0
+168 silly fetch manifest is-utf8@^0.2.0
+169 http fetch GET 200 https://registry.npmjs.org/is-utf8 193ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/error-ex 203ms (cache miss)
+171 timing idealTree:node_modules/bash-obfuscate/node_modules/load-json-file Completed in 244ms
+172 timing idealTree:node_modules/bash-obfuscate/node_modules/graceful-fs Completed in 0ms
+173 silly placeDep node_modules/bash-obfuscate hosted-git-info@2.8.9 OK for: normalize-package-data@2.5.0 want: ^2.1.4
+174 silly placeDep node_modules/bash-obfuscate resolve@1.22.1 OK for: normalize-package-data@2.5.0 want: ^1.10.0
+175 silly placeDep node_modules/bash-obfuscate semver@5.7.1 OK for: normalize-package-data@2.5.0 want: 2 || 3 || 4 || 5
+176 silly placeDep node_modules/bash-obfuscate validate-npm-package-license@3.0.4 OK for: normalize-package-data@2.5.0 want: ^3.0.1
+177 silly fetch manifest is-core-module@^2.9.0
+178 silly fetch manifest path-parse@^1.0.7
+179 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+180 silly fetch manifest spdx-correct@^3.0.0
+181 silly fetch manifest spdx-expression-parse@^3.0.0
+182 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 271ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/path-parse 281ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/spdx-correct 276ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/is-core-module 296ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse 439ms (cache miss)
+187 timing idealTree:node_modules/bash-obfuscate/node_modules/normalize-package-data Completed in 513ms
+188 timing idealTree:node_modules/bash-obfuscate/node_modules/hosted-git-info Completed in 1ms
+189 silly placeDep node_modules/bash-obfuscate error-ex@1.3.2 OK for: parse-json@2.2.0 want: ^1.2.0
+190 silly fetch manifest is-arrayish@^0.2.1
+191 http fetch GET 200 https://registry.npmjs.org/is-arrayish 154ms (cache miss)
+192 timing idealTree:node_modules/bash-obfuscate/node_modules/parse-json Completed in 174ms
+193 silly placeDep node_modules/bash-obfuscate is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+194 timing idealTree:node_modules/bash-obfuscate/node_modules/error-ex Completed in 12ms
+195 timing idealTree:node_modules/bash-obfuscate/node_modules/is-arrayish Completed in 0ms
+196 timing idealTree:node_modules/bash-obfuscate/node_modules/path-type Completed in 0ms
+197 timing idealTree:node_modules/bash-obfuscate/node_modules/pify Completed in 0ms
+198 timing idealTree:node_modules/bash-obfuscate/node_modules/require-directory Completed in 1ms
+199 timing idealTree:node_modules/bash-obfuscate/node_modules/require-main-filename Completed in 0ms
+200 silly placeDep node_modules/bash-obfuscate is-core-module@2.10.0 OK for: resolve@1.22.1 want: ^2.9.0
+201 silly placeDep node_modules/bash-obfuscate path-parse@1.0.7 OK for: resolve@1.22.1 want: ^1.0.7
+202 silly placeDep node_modules/bash-obfuscate supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.1 want: ^1.0.0
+203 silly fetch manifest has@^1.0.3
+204 http fetch GET 200 https://registry.npmjs.org/has 143ms (cache miss)
+205 timing idealTree:node_modules/bash-obfuscate/node_modules/resolve Completed in 189ms
+206 silly placeDep node_modules/bash-obfuscate has@1.0.3 OK for: is-core-module@2.10.0 want: ^1.0.3
+207 silly fetch manifest function-bind@^1.1.1
+208 http fetch GET 200 https://registry.npmjs.org/function-bind 125ms (cache miss)
+209 timing idealTree:node_modules/bash-obfuscate/node_modules/is-core-module Completed in 144ms
+210 silly placeDep node_modules/bash-obfuscate function-bind@1.1.1 OK for: has@1.0.3 want: ^1.1.1
+211 timing idealTree:node_modules/bash-obfuscate/node_modules/has Completed in 12ms
+212 timing idealTree:node_modules/bash-obfuscate/node_modules/function-bind Completed in 0ms
+213 timing idealTree:node_modules/bash-obfuscate/node_modules/path-parse Completed in 1ms
+214 timing idealTree:node_modules/bash-obfuscate/node_modules/semver Completed in 1ms
+215 timing idealTree:node_modules/bash-obfuscate/node_modules/set-blocking Completed in 1ms
+216 silly placeDep node_modules/bash-obfuscate code-point-at@1.1.0 OK for: string-width@1.0.2 want: ^1.0.0
+217 silly placeDep node_modules/bash-obfuscate is-fullwidth-code-point@1.0.0 OK for: string-width@1.0.2 want: ^1.0.0
+218 silly fetch manifest number-is-nan@^1.0.0
+219 http fetch GET 200 https://registry.npmjs.org/number-is-nan 221ms (cache miss)
+220 timing idealTree:node_modules/bash-obfuscate/node_modules/string-width Completed in 256ms
+221 timing idealTree:node_modules/bash-obfuscate/node_modules/code-point-at Completed in 0ms
+222 silly placeDep node_modules/bash-obfuscate number-is-nan@1.0.1 OK for: is-fullwidth-code-point@1.0.0 want: ^1.0.0
+223 timing idealTree:node_modules/bash-obfuscate/node_modules/is-fullwidth-code-point Completed in 12ms
+224 timing idealTree:node_modules/bash-obfuscate/node_modules/number-is-nan Completed in 0ms
+225 silly placeDep node_modules/bash-obfuscate ansi-regex@2.1.1 OK for: strip-ansi@3.0.1 want: ^2.0.0
+226 timing idealTree:node_modules/bash-obfuscate/node_modules/strip-ansi Completed in 13ms
+227 timing idealTree:node_modules/bash-obfuscate/node_modules/ansi-regex Completed in 0ms
+228 silly placeDep node_modules/bash-obfuscate is-utf8@0.2.1 OK for: strip-bom@2.0.0 want: ^0.2.0
+229 timing idealTree:node_modules/bash-obfuscate/node_modules/strip-bom Completed in 9ms
+230 timing idealTree:node_modules/bash-obfuscate/node_modules/is-utf8 Completed in 0ms
+231 timing idealTree:node_modules/bash-obfuscate/node_modules/supports-preserve-symlinks-flag Completed in 0ms
+232 silly placeDep node_modules/bash-obfuscate spdx-correct@3.1.1 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+233 silly placeDep node_modules/bash-obfuscate spdx-expression-parse@3.0.1 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+234 silly fetch manifest spdx-license-ids@^3.0.0
+235 silly fetch manifest spdx-exceptions@^2.1.0
+236 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions 162ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 176ms (cache miss)
+238 timing idealTree:node_modules/bash-obfuscate/node_modules/validate-npm-package-license Completed in 202ms
+239 silly placeDep node_modules/bash-obfuscate spdx-license-ids@3.0.12 OK for: spdx-correct@3.1.1 want: ^3.0.0
+240 timing idealTree:node_modules/bash-obfuscate/node_modules/spdx-correct Completed in 9ms
+241 silly placeDep node_modules/bash-obfuscate spdx-exceptions@2.3.0 OK for: spdx-expression-parse@3.0.1 want: ^2.1.0
+242 timing idealTree:node_modules/bash-obfuscate/node_modules/spdx-expression-parse Completed in 8ms
+243 timing idealTree:node_modules/bash-obfuscate/node_modules/spdx-exceptions Completed in 0ms
+244 timing idealTree:node_modules/bash-obfuscate/node_modules/spdx-license-ids Completed in 0ms
+245 timing idealTree:node_modules/bash-obfuscate/node_modules/which-module Completed in 0ms
+246 timing idealTree:node_modules/bash-obfuscate/node_modules/wrap-ansi Completed in 1ms
+247 timing idealTree:node_modules/bash-obfuscate/node_modules/y18n Completed in 0ms
+248 timing idealTree:node_modules/bash-obfuscate/node_modules/yargs-parser Completed in 0ms
+249 timing idealTree:buildDeps Completed in 6824ms
+250 timing idealTree:fixDepFlags Completed in 7ms
+251 timing idealTree Completed in 6882ms
+252 timing reify:loadTrees Completed in 6896ms
+253 timing reify:diffTrees Completed in 17ms
+254 silly reify moves {}
+255 timing reify:retireShallow Completed in 6ms
+256 timing reify:createSparse Completed in 49ms
+257 timing reify:loadBundles Completed in 0ms
+258 silly audit bulk request {
+258 silly audit   'bash-obfuscate': [ '1.2.1' ],
+258 silly audit   lodash: [ '4.17.21' ],
+258 silly audit   yargs: [ '6.6.0' ],
+258 silly audit   camelcase: [ '3.0.0' ],
+258 silly audit   cliui: [ '3.2.0' ],
+258 silly audit   decamelize: [ '1.2.0' ],
+258 silly audit   'get-caller-file': [ '1.0.3' ],
+258 silly audit   'os-locale': [ '1.4.0' ],
+258 silly audit   'read-pkg-up': [ '1.0.1' ],
+258 silly audit   'require-directory': [ '2.1.1' ],
+258 silly audit   'require-main-filename': [ '1.0.1' ],
+258 silly audit   'set-blocking': [ '2.0.0' ],
+258 silly audit   'string-width': [ '1.0.2' ],
+258 silly audit   'which-module': [ '1.0.0' ],
+258 silly audit   y18n: [ '3.2.2' ],
+258 silly audit   'yargs-parser': [ '4.2.1' ],
+258 silly audit   'strip-ansi': [ '3.0.1' ],
+258 silly audit   'wrap-ansi': [ '2.1.0' ],
+258 silly audit   lcid: [ '1.0.0' ],
+258 silly audit   'invert-kv': [ '1.0.0' ],
+258 silly audit   'find-up': [ '1.1.2' ],
+258 silly audit   'read-pkg': [ '1.1.0' ],
+258 silly audit   'path-exists': [ '2.1.0' ],
+258 silly audit   'pinkie-promise': [ '2.0.1' ],
+258 silly audit   pinkie: [ '2.0.4' ],
+258 silly audit   'load-json-file': [ '1.1.0' ],
+258 silly audit   'normalize-package-data': [ '2.5.0' ],
+258 silly audit   'path-type': [ '1.1.0' ],
+258 silly audit   'graceful-fs': [ '4.2.10' ],
+258 silly audit   'parse-json': [ '2.2.0' ],
+258 silly audit   pify: [ '2.3.0' ],
+258 silly audit   'strip-bom': [ '2.0.0' ],
+258 silly audit   'hosted-git-info': [ '2.8.9' ],
+258 silly audit   resolve: [ '1.22.1' ],
+258 silly audit   semver: [ '5.7.1' ],
+258 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+258 silly audit   'error-ex': [ '1.3.2' ],
+258 silly audit   'is-arrayish': [ '0.2.1' ],
+258 silly audit   'is-core-module': [ '2.10.0' ],
+258 silly audit   'path-parse': [ '1.0.7' ],
+258 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+258 silly audit   has: [ '1.0.3' ],
+258 silly audit   'function-bind': [ '1.1.1' ],
+258 silly audit   'code-point-at': [ '1.1.0' ],
+258 silly audit   'is-fullwidth-code-point': [ '1.0.0' ],
+258 silly audit   'number-is-nan': [ '1.0.1' ],
+258 silly audit   'ansi-regex': [ '2.1.1' ],
+258 silly audit   'is-utf8': [ '0.2.1' ],
+258 silly audit   'spdx-correct': [ '3.1.1' ],
+258 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+258 silly audit   'spdx-license-ids': [ '3.0.12' ],
+258 silly audit   'spdx-exceptions': [ '2.3.0' ]
+258 silly audit }
+259 silly tarball no local data for bash-obfuscate@https://registry.npmjs.org/bash-obfuscate/-/bash-obfuscate-1.2.1.tgz. Extracting by manifest.
+260 silly tarball no local data for spdx-exceptions@https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz. Extracting by manifest.
+261 silly tarball no local data for spdx-license-ids@https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.12.tgz. Extracting by manifest.
+262 silly tarball no local data for spdx-expression-parse@https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz. Extracting by manifest.
+263 silly tarball no local data for spdx-correct@https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz. Extracting by manifest.
+264 silly tarball no local data for is-utf8@https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz. Extracting by manifest.
+265 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz. Extracting by manifest.
+266 silly tarball no local data for number-is-nan@https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz. Extracting by manifest.
+267 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz. Extracting by manifest.
+268 silly tarball no local data for code-point-at@https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz. Extracting by manifest.
+269 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz. Extracting by manifest.
+270 silly tarball no local data for has@https://registry.npmjs.org/has/-/has-1.0.3.tgz. Extracting by manifest.
+271 silly tarball no local data for supports-preserve-symlinks-flag@https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz. Extracting by manifest.
+272 silly tarball no local data for path-parse@https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz. Extracting by manifest.
+273 silly tarball no local data for is-core-module@https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz. Extracting by manifest.
+274 silly tarball no local data for is-arrayish@https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz. Extracting by manifest.
+275 silly tarball no local data for error-ex@https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz. Extracting by manifest.
+276 silly tarball no local data for validate-npm-package-license@https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz. Extracting by manifest.
+277 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.1.tgz. Extracting by manifest.
+278 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz. Extracting by manifest.
+279 silly tarball no local data for hosted-git-info@https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz. Extracting by manifest.
+280 silly tarball no local data for strip-bom@https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz. Extracting by manifest.
+281 silly tarball no local data for pify@https://registry.npmjs.org/pify/-/pify-2.3.0.tgz. Extracting by manifest.
+282 silly tarball no local data for parse-json@https://registry.npmjs.org/parse-json/-/parse-json-2.2.0.tgz. Extracting by manifest.
+283 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz. Extracting by manifest.
+284 silly tarball no local data for path-type@https://registry.npmjs.org/path-type/-/path-type-1.1.0.tgz. Extracting by manifest.
+285 silly tarball no local data for normalize-package-data@https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz. Extracting by manifest.
+286 silly tarball no local data for load-json-file@https://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz. Extracting by manifest.
+287 silly tarball no local data for pinkie@https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz. Extracting by manifest.
+288 silly tarball no local data for pinkie-promise@https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz. Extracting by manifest.
+289 silly tarball no local data for path-exists@https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz. Extracting by manifest.
+290 silly tarball no local data for read-pkg@https://registry.npmjs.org/read-pkg/-/read-pkg-1.1.0.tgz. Extracting by manifest.
+291 silly tarball no local data for find-up@https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz. Extracting by manifest.
+292 silly tarball no local data for invert-kv@https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz. Extracting by manifest.
+293 silly tarball no local data for lcid@https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz. Extracting by manifest.
+294 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz. Extracting by manifest.
+295 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-4.2.1.tgz. Extracting by manifest.
+296 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz. Extracting by manifest.
+297 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-3.2.2.tgz. Extracting by manifest.
+298 silly tarball no local data for which-module@https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz. Extracting by manifest.
+299 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz. Extracting by manifest.
+300 silly tarball no local data for set-blocking@https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz. Extracting by manifest.
+301 silly tarball no local data for require-main-filename@https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz. Extracting by manifest.
+302 silly tarball no local data for require-directory@https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz. Extracting by manifest.
+303 silly tarball no local data for read-pkg-up@https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz. Extracting by manifest.
+304 silly tarball no local data for os-locale@https://registry.npmjs.org/os-locale/-/os-locale-1.4.0.tgz. Extracting by manifest.
+305 silly tarball no local data for get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz. Extracting by manifest.
+306 silly tarball no local data for decamelize@https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz. Extracting by manifest.
+307 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz. Extracting by manifest.
+308 silly tarball no local data for camelcase@https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz. Extracting by manifest.
+309 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-6.6.0.tgz. Extracting by manifest.
+310 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz. Extracting by manifest.
+311 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1130ms
+312 timing auditReport:getReport Completed in 1156ms
+313 silly audit report {
+313 silly audit report   'yargs-parser': [
+313 silly audit report     {
+313 silly audit report       id: 1081883,
+313 silly audit report       url: 'https://github.com/advisories/GHSA-p9pc-299p-vxgp',
+313 silly audit report       title: 'yargs-parser Vulnerable to Prototype Pollution',
+313 silly audit report       severity: 'moderate',
+313 silly audit report       vulnerable_versions: '<=5.0.0',
+313 silly audit report       cwe: [Array],
+313 silly audit report       cvss: [Object]
+313 silly audit report     }
+313 silly audit report   ]
+313 silly audit report }
+314 timing metavuln:packument:yargs-parser Completed in 3ms
+315 timing metavuln:cache:get:security-advisory:yargs-parser:Fb4ocU65Fem5+ZvgKJQeLzojGMhHeej2gKk0zHV+a/mOCKJYCDLYw3WIMFgTKM/HZiNShtgmX+HGI4Y0nmjKuw== Completed in 257ms
+316 timing metavuln:load:security-advisory:yargs-parser:1081883 Completed in 32ms
+317 http fetch GET 200 https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz 2724ms (cache miss)
+318 timing reifyNode:node_modules/bash-obfuscate/node_modules/code-point-at Completed in 3057ms
+319 http fetch GET 200 https://registry.npmjs.org/has/-/has-1.0.3.tgz 2719ms (cache miss)
+320 timing reifyNode:node_modules/bash-obfuscate/node_modules/has Completed in 3064ms
+321 http fetch GET 200 https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz 2771ms (cache miss)
+322 timing reifyNode:node_modules/bash-obfuscate/node_modules/number-is-nan Completed in 3085ms
+323 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 2748ms (cache miss)
+324 timing reifyNode:node_modules/bash-obfuscate/node_modules/function-bind Completed in 3086ms
+325 http fetch GET 200 https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz 2806ms (cache miss)
+326 timing reifyNode:node_modules/bash-obfuscate/node_modules/spdx-correct Completed in 3098ms
+327 http fetch GET 200 https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz 2697ms (cache miss)
+328 timing reifyNode:node_modules/bash-obfuscate/node_modules/error-ex Completed in 3094ms
+329 http fetch GET 200 https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz 2710ms (cache miss)
+330 timing reifyNode:node_modules/bash-obfuscate/node_modules/is-arrayish Completed in 3097ms
+331 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-1.0.3.tgz 2355ms (cache miss)
+332 timing reifyNode:node_modules/bash-obfuscate/node_modules/get-caller-file Completed in 3122ms
+333 http fetch GET 200 https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz 2340ms (cache miss)
+334 timing reifyNode:node_modules/bash-obfuscate/node_modules/decamelize Completed in 3126ms
+335 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz 2873ms (cache miss)
+336 timing reifyNode:node_modules/bash-obfuscate/node_modules/spdx-expression-parse Completed in 3155ms
+337 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz 2904ms (cache miss)
+338 timing reifyNode:node_modules/bash-obfuscate/node_modules/spdx-exceptions Completed in 3159ms
+339 http fetch GET 200 https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz 2861ms (cache miss)
+340 timing reifyNode:node_modules/bash-obfuscate/node_modules/is-utf8 Completed in 3158ms
+341 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.12.tgz 2889ms (cache miss)
+342 timing reifyNode:node_modules/bash-obfuscate/node_modules/spdx-license-ids Completed in 3165ms
+343 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 2860ms (cache miss)
+344 timing reifyNode:node_modules/bash-obfuscate/node_modules/ansi-regex Completed in 3165ms
+345 http fetch GET 200 https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz 2549ms (cache miss)
+346 timing reifyNode:node_modules/bash-obfuscate/node_modules/lcid Completed in 3157ms
+347 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz 2574ms (cache miss)
+348 timing reifyNode:node_modules/bash-obfuscate/node_modules/find-up Completed in 3161ms
+349 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz 2862ms (cache miss)
+350 timing reifyNode:node_modules/bash-obfuscate/node_modules/is-fullwidth-code-point Completed in 3183ms
+351 http fetch GET 200 https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz 2748ms (cache miss)
+352 timing reifyNode:node_modules/bash-obfuscate/node_modules/hosted-git-info Completed in 3180ms
+353 http fetch GET 200 https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz 2725ms (cache miss)
+354 timing reifyNode:node_modules/bash-obfuscate/node_modules/strip-bom Completed in 3183ms
+355 http fetch GET 200 https://registry.npmjs.org/read-pkg/-/read-pkg-1.1.0.tgz 2609ms (cache miss)
+356 timing reifyNode:node_modules/bash-obfuscate/node_modules/read-pkg Completed in 3184ms
+357 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-3.2.2.tgz 2538ms (cache miss)
+358 timing reifyNode:node_modules/bash-obfuscate/node_modules/y18n Completed in 3187ms
+359 http fetch GET 200 https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz 2500ms (cache miss)
+360 timing reifyNode:node_modules/bash-obfuscate/node_modules/set-blocking Completed in 3197ms
+361 timing metavuln:cache:put:security-advisory:yargs-parser:Fb4ocU65Fem5+ZvgKJQeLzojGMhHeej2gKk0zHV+a/mOCKJYCDLYw3WIMFgTKM/HZiNShtgmX+HGI4Y0nmjKuw== Completed in 1808ms
+362 timing metavuln:calculate:security-advisory:yargs-parser:1081883 Completed in 2101ms
+363 timing metavuln:packument:yargs Completed in 2ms
+364 http fetch GET 200 https://registry.npmjs.org/bash-obfuscate/-/bash-obfuscate-1.2.1.tgz 2981ms (cache miss)
+365 timing reifyNode:node_modules/bash-obfuscate Completed in 3229ms
+366 http fetch GET 200 https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz 2694ms (cache miss)
+367 timing reifyNode:node_modules/bash-obfuscate/node_modules/pinkie Completed in 3218ms
+368 http fetch GET 200 https://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz 2707ms (cache miss)
+369 timing reifyNode:node_modules/bash-obfuscate/node_modules/load-json-file Completed in 3222ms
+370 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz 2742ms (cache miss)
+371 timing reifyNode:node_modules/bash-obfuscate/node_modules/graceful-fs Completed in 3226ms
+372 http fetch GET 200 https://registry.npmjs.org/path-type/-/path-type-1.1.0.tgz 2734ms (cache miss)
+373 timing reifyNode:node_modules/bash-obfuscate/node_modules/path-type Completed in 3228ms
+374 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz 2420ms (cache miss)
+375 timing reifyNode:node_modules/bash-obfuscate/node_modules/camelcase Completed in 3233ms
+376 http fetch GET 200 https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz 2511ms (cache miss)
+377 timing reifyNode:node_modules/bash-obfuscate/node_modules/read-pkg-up Completed in 3237ms
+378 timing metavuln:cache:get:security-advisory:yargs:DEp5gXjNFtu17CEgLrzeESfi4A27REe7kqtZ15vGyZnSxX+Tykz+QkOvl2luf4W34yIQGUliMa/bp8UZWmeQyw== Completed in 39ms
+379 timing metavuln:load:security-advisory:yargs:Fb4ocU65Fem5+ZvgKJQeLzojGMhHeej2gKk0zHV+a/mOCKJYCDLYw3WIMFgTKM/HZiNShtgmX+HGI4Y0nmjKuw== Completed in 269ms
+380 http fetch GET 200 https://registry.npmjs.org/is-core-module/-/is-core-module-2.10.0.tgz 3152ms (cache miss)
+381 timing reifyNode:node_modules/bash-obfuscate/node_modules/is-core-module Completed in 3530ms
+382 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz 2908ms (cache miss)
+383 timing reifyNode:node_modules/bash-obfuscate/node_modules/wrap-ansi Completed in 3527ms
+384 http fetch GET 200 https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz 2932ms (cache miss)
+385 timing reifyNode:node_modules/bash-obfuscate/node_modules/invert-kv Completed in 3533ms
+386 http fetch GET 200 https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz 3009ms (cache miss)
+387 timing reifyNode:node_modules/bash-obfuscate/node_modules/pinkie-promise Completed in 3540ms
+388 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz 3003ms (cache miss)
+389 timing reifyNode:node_modules/bash-obfuscate/node_modules/path-exists Completed in 3544ms
+390 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz 2761ms (cache miss)
+391 timing reifyNode:node_modules/bash-obfuscate/node_modules/cliui Completed in 3561ms
+392 http fetch GET 200 https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz 3069ms (cache miss)
+393 timing reifyNode:node_modules/bash-obfuscate/node_modules/normalize-package-data Completed in 3572ms
+394 http fetch GET 200 https://registry.npmjs.org/parse-json/-/parse-json-2.2.0.tgz 3099ms (cache miss)
+395 timing reifyNode:node_modules/bash-obfuscate/node_modules/parse-json Completed in 3575ms
+396 http fetch GET 200 https://registry.npmjs.org/pify/-/pify-2.3.0.tgz 3111ms (cache miss)
+397 timing reifyNode:node_modules/bash-obfuscate/node_modules/pify Completed in 3578ms
+398 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 2858ms (cache miss)
+399 timing reifyNode:node_modules/bash-obfuscate/node_modules/require-directory Completed in 3574ms
+400 http fetch GET 200 https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz 2870ms (cache miss)
+401 timing reifyNode:node_modules/bash-obfuscate/node_modules/require-main-filename Completed in 3576ms
+402 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz 3235ms (cache miss)
+403 timing reifyNode:node_modules/bash-obfuscate/node_modules/supports-preserve-symlinks-flag Completed in 3589ms
+404 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz 2898ms (cache miss)
+405 timing reifyNode:node_modules/bash-obfuscate/node_modules/string-width Completed in 3584ms
+406 http fetch GET 200 https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz 2911ms (cache miss)
+407 timing reifyNode:node_modules/bash-obfuscate/node_modules/which-module Completed in 3587ms
+408 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz 3191ms (cache miss)
+409 timing reifyNode:node_modules/bash-obfuscate/node_modules/validate-npm-package-license Completed in 3596ms
+410 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 2953ms (cache miss)
+411 timing reifyNode:node_modules/bash-obfuscate/node_modules/strip-ansi Completed in 3594ms
+412 http fetch GET 200 https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz 3243ms (cache miss)
+413 timing reifyNode:node_modules/bash-obfuscate/node_modules/path-parse Completed in 3604ms
+414 http fetch GET 200 https://registry.npmjs.org/os-locale/-/os-locale-1.4.0.tgz 2864ms (cache miss)
+415 timing reifyNode:node_modules/bash-obfuscate/node_modules/os-locale Completed in 3597ms
+416 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.1.tgz 3214ms (cache miss)
+417 timing reifyNode:node_modules/bash-obfuscate/node_modules/semver Completed in 3628ms
+418 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-4.2.1.tgz 3001ms (cache miss)
+419 timing reifyNode:node_modules/bash-obfuscate/node_modules/yargs-parser Completed in 3630ms
+420 timing metavuln:cache:put:security-advisory:yargs:DEp5gXjNFtu17CEgLrzeESfi4A27REe7kqtZ15vGyZnSxX+Tykz+QkOvl2luf4W34yIQGUliMa/bp8UZWmeQyw== Completed in 164ms
+421 timing metavuln:calculate:security-advisory:yargs:Fb4ocU65Fem5+ZvgKJQeLzojGMhHeej2gKk0zHV+a/mOCKJYCDLYw3WIMFgTKM/HZiNShtgmX+HGI4Y0nmjKuw== Completed in 472ms
+422 timing auditReport:init Completed in 2617ms
+423 timing reify:audit Completed in 3780ms
+424 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-6.6.0.tgz 2952ms (cache miss)
+425 timing reifyNode:node_modules/bash-obfuscate/node_modules/yargs Completed in 3784ms
+426 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz 3937ms (cache miss)
+427 timing reifyNode:node_modules/bash-obfuscate/node_modules/resolve Completed in 4362ms
+428 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 5408ms (cache miss)
+429 timing reifyNode:node_modules/bash-obfuscate/node_modules/lodash Completed in 6249ms
+430 timing reify:unpack Completed in 6273ms
+431 timing reify:unretire Completed in 1ms
+432 timing build:queue Completed in 23ms
+433 timing build:link:node_modules/bash-obfuscate Completed in 22ms
+434 timing build:link:node_modules/bash-obfuscate/node_modules/resolve Completed in 17ms
+435 timing build:link:node_modules/bash-obfuscate/node_modules/semver Completed in 16ms
+436 timing build:link Completed in 23ms
+437 timing build:deps Completed in 50ms
+438 timing build Completed in 51ms
+439 timing reify:build Completed in 54ms
+440 timing reify:trash Completed in 0ms
+441 timing reify Completed in 13703ms
+442 silly ADD node_modules/bash-obfuscate
+443 silly ADD node_modules/bash-obfuscate/node_modules/spdx-exceptions
+444 silly ADD node_modules/bash-obfuscate/node_modules/spdx-license-ids
+445 silly ADD node_modules/bash-obfuscate/node_modules/spdx-expression-parse
+446 silly ADD node_modules/bash-obfuscate/node_modules/spdx-correct
+447 silly ADD node_modules/bash-obfuscate/node_modules/is-utf8
+448 silly ADD node_modules/bash-obfuscate/node_modules/ansi-regex
+449 silly ADD node_modules/bash-obfuscate/node_modules/number-is-nan
+450 silly ADD node_modules/bash-obfuscate/node_modules/is-fullwidth-code-point
+451 silly ADD node_modules/bash-obfuscate/node_modules/code-point-at
+452 silly ADD node_modules/bash-obfuscate/node_modules/function-bind
+453 silly ADD node_modules/bash-obfuscate/node_modules/has
+454 silly ADD node_modules/bash-obfuscate/node_modules/supports-preserve-symlinks-flag
+455 silly ADD node_modules/bash-obfuscate/node_modules/path-parse
+456 silly ADD node_modules/bash-obfuscate/node_modules/is-core-module
+457 silly ADD node_modules/bash-obfuscate/node_modules/is-arrayish
+458 silly ADD node_modules/bash-obfuscate/node_modules/error-ex
+459 silly ADD node_modules/bash-obfuscate/node_modules/validate-npm-package-license
+460 silly ADD node_modules/bash-obfuscate/node_modules/semver
+461 silly ADD node_modules/bash-obfuscate/node_modules/resolve
+462 silly ADD node_modules/bash-obfuscate/node_modules/hosted-git-info
+463 silly ADD node_modules/bash-obfuscate/node_modules/strip-bom
+464 silly ADD node_modules/bash-obfuscate/node_modules/pify
+465 silly ADD node_modules/bash-obfuscate/node_modules/parse-json
+466 silly ADD node_modules/bash-obfuscate/node_modules/graceful-fs
+467 silly ADD node_modules/bash-obfuscate/node_modules/path-type
+468 silly ADD node_modules/bash-obfuscate/node_modules/normalize-package-data
+469 silly ADD node_modules/bash-obfuscate/node_modules/load-json-file
+470 silly ADD node_modules/bash-obfuscate/node_modules/pinkie
+471 silly ADD node_modules/bash-obfuscate/node_modules/pinkie-promise
+472 silly ADD node_modules/bash-obfuscate/node_modules/path-exists
+473 silly ADD node_modules/bash-obfuscate/node_modules/read-pkg
+474 silly ADD node_modules/bash-obfuscate/node_modules/find-up
+475 silly ADD node_modules/bash-obfuscate/node_modules/invert-kv
+476 silly ADD node_modules/bash-obfuscate/node_modules/lcid
+477 silly ADD node_modules/bash-obfuscate/node_modules/wrap-ansi
+478 silly ADD node_modules/bash-obfuscate/node_modules/strip-ansi
+479 silly ADD node_modules/bash-obfuscate/node_modules/yargs-parser
+480 silly ADD node_modules/bash-obfuscate/node_modules/y18n
+481 silly ADD node_modules/bash-obfuscate/node_modules/which-module
+482 silly ADD node_modules/bash-obfuscate/node_modules/string-width
+483 silly ADD node_modules/bash-obfuscate/node_modules/set-blocking
+484 silly ADD node_modules/bash-obfuscate/node_modules/require-main-filename
+485 silly ADD node_modules/bash-obfuscate/node_modules/require-directory
+486 silly ADD node_modules/bash-obfuscate/node_modules/read-pkg-up
+487 silly ADD node_modules/bash-obfuscate/node_modules/os-locale
+488 silly ADD node_modules/bash-obfuscate/node_modules/get-caller-file
+489 silly ADD node_modules/bash-obfuscate/node_modules/decamelize
+490 silly ADD node_modules/bash-obfuscate/node_modules/cliui
+491 silly ADD node_modules/bash-obfuscate/node_modules/camelcase
+492 silly ADD node_modules/bash-obfuscate/node_modules/yargs
+493 silly ADD node_modules/bash-obfuscate/node_modules/lodash
+494 timing command:install Completed in 13784ms
+495 notice
+495 notice New [33mminor[39m version of npm available! [31m8.15.0[39m -> [32m8.19.1[39m
+495 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v8.19.1[39m
+495 notice Run [32mnpm install -g npm@8.19.1[39m to update!
+495 notice
+496 verbose exit 0
+497 timing npm Completed in 14500ms
+498 info ok
